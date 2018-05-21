@@ -1,0 +1,37 @@
+h1 {
+    font-weight: 700;
+    color: orangered;   
+}
+body {
+    background-color: aquamarine;
+    width: 450px;
+    margin-left: 25%;
+}
+#startbtn {
+    color: chocolate;
+    background-color: black;
+}
+.jumbotron {
+    width: 980px;
+    margin-left:25%;
+    color: chocolate;
+    margin-top: 10%;
+}
+.form-control, .form-group {
+    width: 450px;
+}
+#homebtn, #friendsbtn {
+    width: 450px;
+    color: chocolate;
+    background-color: rgb(74, 177, 141);
+    height: 45px;
+    border-radius: 25px;
+}
+#submit {
+    font-weight: bolder;
+    width: 450px;
+    border-radius: 25px;
+    font-size: 40px;
+    color: chocolate;
+    background-color: rgb(74, 177, 141);
+}

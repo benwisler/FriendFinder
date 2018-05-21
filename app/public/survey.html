@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FriendFinder</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+ 
+        <h1>Your Info</h1>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control">
+        <h4>Photo Link (Required)</h4>
+        <input type="text" id="photo" class="form-control">
+        <h1>Questionnaire</h1>
+        <section id="friend-form">
+            <section class="form-group">
+                <h3>Question 1</h3>
+                <label for="one" class="control-label">
+                    I respond well to stress.
+                </label>
+                <div>
+                    <select class="form-control" id="one">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 2</h3>
+                <label for="2" class="control-label">
+                    I am more of a morning person than a night person.
+                </label>
+                <div>
+                    <select class="form-control" id="2">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 3</h3>
+                <label for="3" class="control-label">
+                    I prefer to run next to someone on a treadmill.
+                </label>
+                <div>
+                    <select class="form-control" id="3">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 4</h3>
+                <label for="4" class="control-label">
+                    I often procrastinate.
+                </label>
+                <div>
+                    <select class="form-control" id="4">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 5</h3>
+                <label for="5" class="control-label">
+                    Happiness is the most important thing in life.
+                </label>
+                <div>
+                    <select class="form-control" id="5">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 6</h3>
+                <label for="6" class="control-label">
+                    We are not alone in the universe.
+                </label>
+                <div>
+                    <select class="form-control" id="6">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 7</h3>
+                <label for="7" class="control-label">
+                    I like to collect things.
+                </label>
+                <div>
+                    <select class="form-control" id="7">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 8</h3>
+                <label for="8" class="control-label">
+                    I like to travel.
+                </label>
+                <div>
+                    <select class="form-control" id="8">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 9</h3>
+                <label for="9" class="control-label">
+                    I judge people before meeting them.
+                </label>
+                <div>
+                    <select class="form-control" id="9">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-group">
+                <h3>Question 10</h3>
+                <label for="10" class="control-label">
+                    I love large parties.
+                </label>
+                <div>
+                    <select class="form-control" id="10">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </section>
+        </section>
+        <div class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body text-center">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+        <br>
+        <a href="/">
+            <button type="button" id = "homebtn">
+                Home
+            </button>
+        </a>
+        <br>
+        <a href="/api/friends">
+            <button type="button" id = "friendsbtn">
+                Api Friends List
+            </button>
+        </a>
+    </div>
+    <script type="text/javascript">
+        $('#submit').on('click', function (event) {
+            event.preventDefault();
+            var matchResult = $('.modal-title');
+            var modalBody = $('.modal-body');
+            var name = $('#name').val().trim();
+            var photo = $('#photo').val();
+            var answer1 = parseInt($('#one').val());
+            var answer2 = parseInt($('#2').val());
+            var answer3 = parseInt($('#3').val());
+            var answer4 = parseInt($('#4').val());
+            var answer5 = parseInt($('#5').val());
+            var answer6 = parseInt($('#6').val());
+            var answer7 = parseInt($('#7').val());
+            var answer8 = parseInt($('#8').val());
+            var answer9 = parseInt($('#9').val());
+            var answer10 = parseInt($('#10').val());
+            var userResults = {
+                name: name,
+                photo: photo,
+                scores: [
+                    answer1,
+                    answer2,
+                    answer3,
+                    answer4,
+                    answer5,
+                    answer6,
+                    answer7,
+                    answer8,
+                    answer9,
+                    answer10
+                ]
+            };
+            if ((name !== '') && (photo !== '')) {
+                var url = window.location.origin;
+                $.post(url + "/api/friends", userResults, function (data) {
+                    matchResult.html('Your new friend is');
+                    modalBody.html('<p>' + data.name + '</p><img src="' + data.photo + '" height="200">');
+                    $('.modal').modal('toggle');
+                });
+            } else {
+                matchResult.html('Error!');
+                modalBody.html('Please enter your name and image url');
+                $('.modal').modal('toggle');
+            }
+        });
+    </script>
+</body>
+
+</html>
